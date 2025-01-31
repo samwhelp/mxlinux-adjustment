@@ -1,0 +1,98 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+
+
+
+menuentry "MX Linux ISO / Xfce" --class Debian {
+	set iso_file="/opt/iso/mxlinux/latest/MX-23.5_x64.iso"
+	search --set=iso_partition --no-floppy --file ${iso_file}
+	probe --set=iso_partition_uuid --fs-uuid ${iso_partition}
+	set img_dev="/dev/disk/by-uuid/${iso_partition_uuid}"
+	loopback loop (${iso_partition})${iso_file}
+
+
+	set essential_option="fromiso=${iso_file} buuid=${iso_partition_uuid}"
+
+
+	set locale_option=""
+
+
+	set splash_option=""
+	#set splash_option="quiet splash"
+
+
+	set extra_option=""
+
+
+	set boot_option="${essential_option} ${locale_option} ${splash_option} ${extra_option}"
+
+
+	linux (loop)/antiX/vmlinuz ${boot_option} --
+	initrd (loop)/antiX/initrd.gz
+}
+
+
+
+
+menuentry "MX Linux ISO / Kde Plasma" --class Debian {
+	set iso_file="/opt/iso/mxlinux/latest/MX-23.5_KDE_x64.iso"
+	search --set=iso_partition --no-floppy --file ${iso_file}
+	probe --set=iso_partition_uuid --fs-uuid ${iso_partition}
+	set img_dev="/dev/disk/by-uuid/${iso_partition_uuid}"
+	loopback loop (${iso_partition})${iso_file}
+
+
+	set essential_option="fromiso=${iso_file} buuid=${iso_partition_uuid}"
+
+
+	set locale_option=""
+
+
+	set splash_option=""
+	#set splash_option="quiet splash"
+
+
+	set extra_option=""
+
+
+	set boot_option="${essential_option} ${locale_option} ${splash_option} ${extra_option}"
+
+
+	linux (loop)/antiX/vmlinuz ${boot_option} --
+	initrd (loop)/antiX/initrd.gz
+}
+
+
+
+
+menuentry "MX Linux ISO / Fluxbox" --class Debian {
+	set iso_file="/opt/iso/mxlinux/latest/MX-23.5_fluxbox_x64"
+	search --set=iso_partition --no-floppy --file ${iso_file}
+	probe --set=iso_partition_uuid --fs-uuid ${iso_partition}
+	set img_dev="/dev/disk/by-uuid/${iso_partition_uuid}"
+	loopback loop (${iso_partition})${iso_file}
+
+
+	set essential_option="fromiso=${iso_file} buuid=${iso_partition_uuid}"
+
+
+	set locale_option=""
+
+
+	set splash_option=""
+	#set splash_option="quiet splash"
+
+
+	set extra_option=""
+
+
+	set boot_option="${essential_option} ${locale_option} ${splash_option} ${extra_option}"
+
+
+	linux (loop)/antiX/vmlinuz ${boot_option} --
+	initrd (loop)/antiX/initrd.gz
+}

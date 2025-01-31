@@ -1,0 +1,13 @@
+https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.5_x64.iso
+https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-23.5_KDE_x64.iso
+https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-23.5_fluxbox_x64.iso
+
+
+
+
+https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.5_x64.iso.md5
+https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.5_x64.iso.sha256
+https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-23.5_KDE_x64.iso.md5
+https://sourceforge.net/projects/mx-linux/files/Final/KDE/MX-23.5_KDE_x64.iso.sha256
+https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-23.5_fluxbox_x64.iso.md5
+https://sourceforge.net/projects/mx-linux/files/Final/Fluxbox/MX-23.5_fluxbox_x64.iso.sha256
