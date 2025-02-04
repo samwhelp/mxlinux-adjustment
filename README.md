@@ -14,7 +14,7 @@
 
 ## Subject
 
-* [Mx Linux Adjustment](#mxlinux-adjustment)
+* [Mx Linux Adjustment](#mx-linux-adjustment)
 * [Script](#script)
 * [Link](#link)
 
