@@ -4,7 +4,7 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [Mx Linux Adjustment](https://samwhelp.github.io/mx-linux-adjustment/) | [GitHub](https://github.com/samwhelp/mx-linux-adjustment) |
+| [Mx Linux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
 
 
 
