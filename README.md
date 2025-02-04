@@ -22,9 +22,9 @@
 
 | Mx Linux Adjustment |
 | ------------------- |
-| [Mx Linux Xfce Adjustment](https://github.com/samwhelp/note-about-mxlinux-xfce) |
-| [Mx Linux Kde Plasma Adjustment](https://github.com/samwhelp/note-about-mxlinux-kde-plasma) |
-| [Mx Linux Fluxbox Adjustment](https://github.com/samwhelp/note-about-mxlinux-fluxbox) |
+| [Mx Linux Xfce Adjustment](https://github.com/samwhelp/mxlinux-xfce-adjustment) |
+| [Mx Linux Kde Plasma Adjustment](https://github.com/samwhelp/mxlinux-kde-plasma-adjustment) |
+| [Mx Linux Fluxbox Adjustment](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
 
 
 
