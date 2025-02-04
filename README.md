@@ -12,6 +12,7 @@
 ## Subject
 
 * [Mx Linux Adjustment](#mx-linux-adjustment)
+* [Script](#script)
 * [Link](#link)
 
 
@@ -24,6 +25,15 @@
 | [Mx Linux Xfce Adjustment](https://github.com/samwhelp/note-about-mxlinux-xfce) |
 | [Mx Linux Kde Plasma Adjustment](https://github.com/samwhelp/note-about-mxlinux-kde-plasma) |
 | [Mx Linux Fluxbox Adjustment](https://github.com/samwhelp/note-about-mxlinux-fluxbox) |
+
+
+
+
+## Script
+
+| Script |
+| ------- |
+| [Tool Config](https://github.com/samwhelp/mxlinux-adjustment/tree/main/prototype/main/tool-config/part) |
 
 
 
