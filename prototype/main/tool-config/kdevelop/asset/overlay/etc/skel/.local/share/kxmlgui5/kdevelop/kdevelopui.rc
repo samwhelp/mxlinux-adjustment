@@ -1,0 +1,246 @@
+<!DOCTYPE gui>
+<gui version="150" name="kdevelop" translationDomain="kdevelop">
+ <MenuBar alreadyVisited="1">
+  <Menu name="session" noMerge="1" append="first_menu">
+   <text translationDomain="kdevelop" context="@title:menu">Session</text>
+  </Menu>
+  <Menu name="project" noMerge="1" append="first_menu">
+   <text translationDomain="kdevelop" context="@title:menu">&amp;Project</text>
+   <DefineGroup name="project_new"/>
+   <Separator/>
+   <Action name="project_open"/>
+   <Action name="project_fetch"/>
+   <Action name="project_open_recent"/>
+   <Action name="project_open_for_file"/>
+   <Separator/>
+   <Merge/>
+   <Separator/>
+   <Action name="project_open_config"/>
+   <Separator/>
+   <Action name="project_close"/>
+   <Action name="project_close_all"/>
+  </Menu>
+  <Menu name="run" noMerge="1" append="first_menu">
+   <text translationDomain="kdevelop" context="@title:menu">&amp;Run</text>
+   <Action name="run_default_target"/>
+   <Action name="configure_launches"/>
+   <Action name="run_execute"/>
+   <!-- ### remove me -->
+   <Action name="run_debug"/>
+   <!-- ### remove me -->
+   <Action name="run_profile"/>
+   <!-- ### remove me -->
+   <Action name="switch_runtimes"/>
+   <Menu name="debug_core_menu" noMerge="1">
+    <text translationDomain="kdevelop" context="@title:menu">Examine Core File</text>
+   </Menu>
+   <Menu name="debug_attach_menu" noMerge="1">
+    <text translationDomain="kdevelop" context="@title:menu">Attach to Process</text>
+   </Menu>
+   <Separator/>
+   <DefineGroup name="run_operations"/>
+   <Separator/>
+   <Action name="run_stop_all"/>
+   <Action name="run_stop_menu"/>
+   <Separator/>
+   <DefineGroup name="debug"/>
+   <!-- ### remove me -->
+   <Separator/>
+   <DefineGroup name="runtime_operations"/>
+   <Separator/>
+   <Merge/>
+  </Menu>
+  <Menu name="navigation" noMerge="1" append="first_menu">
+   <text translationDomain="kdevelop" context="@title:menu">&amp;Navigation</text>
+   <DefineGroup name="navigation_file"/>
+   <Separator/>
+   <Action name="prev_error"/>
+   <Action name="next_error"/>
+   <Separator/>
+   <DefineGroup name="navigation_code"/>
+   <Separator/>
+   <DefineGroup name="navigation_fxn"/>
+   <Separator/>
+   <DefineGroup name="navigation_jmp"/>
+   <Separator/>
+   <DefineGroup name="navigation_use"/>
+   <Separator/>
+   <DefineGroup name="navigation_cxt"/>
+   <Separator/>
+   <Action name="source_browse_mode"/>
+   <Separator/>
+   <Merge/>
+  </Menu>
+  <Separator style="visible" append="first_menu"/>
+  <Menu name="file" noMerge="1" alreadyVisited="1">
+   <text translationDomain="kxmlgui5">&amp;File</text>
+   <Action name="file_new"/>
+   <DefineGroup name="new_merge" append="new_merge"/>
+   <Action name="file_open"/>
+   <Action name="file_open_recent"/>
+   <DefineGroup name="open_merge" append="open_merge"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_save_all"/>
+   <DefineGroup name="save_merge" append="save_merge"/>
+   <Action name="file_revert_all"/>
+   <DefineGroup name="revert_merge" append="revert_merge"/>
+   <Separator weakSeparator="1"/>
+   <DefineGroup name="print_merge" append="print_merge"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_close"/>
+   <Action name="file_close_all"/>
+   <Action name="file_closeother" append="close_merge"/>
+   <DefineGroup name="close_merge" append="close_merge"/>
+  </Menu>
+  <Menu name="edit" noMerge="1" alreadyVisited="1">
+   <text translationDomain="kxmlgui5">&amp;Edit</text>
+   <DefineGroup name="edit_undo_merge" append="edit_undo_merge"/>
+   <Separator weakSeparator="1"/>
+   <DefineGroup name="edit_paste_merge" append="edit_paste_merge"/>
+   <Separator weakSeparator="1"/>
+   <DefineGroup name="edit_select_merge" append="edit_select_merge"/>
+   <Separator weakSeparator="1"/>
+   <DefineGroup name="edit_find_merge" append="edit_find_merge"/>
+   <Separator weakSeparator="1"/>
+   <DefineGroup name="edit_formatting"/>
+   <Separator/>
+   <Merge/>
+  </Menu>
+  <Menu name="view" noMerge="1" alreadyVisited="1">
+   <text translationDomain="kxmlgui5">&amp;View</text>
+   <Action name="fullscreen"/>
+  </Menu>
+  <Merge/>
+  <Menu name="code" noMerge="1">
+   <text translationDomain="kdevelop" context="@title:menu">Code</text>
+   <Menu name="analyze_file" noMerge="1" icon="dialog-ok">
+    <text translationDomain="kdevelop" context="@title:menu">Analyze Current File With</text>
+    <Merge/>
+   </Menu>
+   <Menu name="analyze_project" noMerge="1" icon="dialog-ok">
+    <text translationDomain="kdevelop" context="@title:menu">Analyze Current Project With</text>
+    <Merge/>
+   </Menu>
+   <Merge/>
+  </Menu>
+  <Separator style="visible"/>
+  <Menu name="window" noMerge="1">
+   <text translationDomain="kdevelop" context="@title:menu">&amp;Window</text>
+   <Action name="new_window"/>
+   <Separator/>
+   <Action name="add_toolview"/>
+   <Action name="select_previous_dock"/>
+   <Action name="select_next_dock"/>
+   <Action name="docks_submenu"/>
+   <Action name="user_interface"/>
+   <DefineGroup name="history_operations"/>
+   <Action name="history_back"/>
+   <Action name="history_forward"/>
+   <Separator/>
+   <Action name="file_switchto"/>
+   <Separator/>
+   <DefineGroup name="error_operations"/>
+   <Separator/>
+   <Merge/>
+   <Separator/>
+   <DefineGroup name="view_operations"/>
+   <Action name="view_previous_window"/>
+   <Action name="view_next_window"/>
+   <Separator/>
+   <Action name="split_horizontal"/>
+   <Action name="split_vertical"/>
+   <Action name="view_previous_split"/>
+   <Action name="view_next_split"/>
+   <Separator/>
+   <DefineGroup name="window_operations"/>
+   <Separator/>
+   <Action name="focus_editor"/>
+   <Separator/>
+   <Action name="show_left_dock"/>
+   <Action name="show_right_dock"/>
+   <Action name="show_bottom_dock"/>
+   <Action name="hide_all_docks"/>
+   <Separator/>
+   <Action name="toggle_concentration_mode"/>
+   <Separator/>
+   <Merge/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Menu name="settings" noMerge="1" alreadyVisited="1">
+   <text translationDomain="kxmlgui5">&amp;Settings</text>
+   <Action group="color" name="colorscheme_menu"/>
+   <DefineGroup name="color"/>
+   <Separator weakSeparator="1"/>
+   <Merge name="StandardToolBarMenuHandler"/>
+   <Merge name="KMDIViewActions"/>
+   <DefineGroup name="show_toolbar_merge" append="show_toolbar_merge"/>
+   <Action name="options_show_statusbar"/>
+   <DefineGroup name="show_merge" append="show_merge"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure_notifications"/>
+   <DefineGroup name="configure_merge" append="configure_merge"/>
+   <Action name="options_configure"/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Menu name="help" noMerge="1" alreadyVisited="1">
+   <text translationDomain="kxmlgui5">&amp;Help</text>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Action name="open_kcommand_bar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_donate"/>
+   <Separator weakSeparator="1"/>
+   <Action name="loaded_plugins" append="about_merge"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar position="Top" name="mainToolBar" noMerge="1" alreadyVisited="1">
+  <text translationDomain="kdevelop">Main Toolbar</text>
+  <Action name="area_switcher"/>
+  <Separator name="separator_0"/>
+  <DefineGroup name="build_operations" append="build_operations"/>
+  <DefineGroup name="run_operations" append="run_operations"/>
+  <Action group="run_operations" name="switch_runtimes"/>
+  <Action group="run_operations" name="run_execute"/>
+  <Action group="run_operations" name="run_debug"/>
+  <Action group="run_operations" name="run_stop_all"/>
+  <Action group="run_operations" name="run_stop_menu"/>
+  <Separator name="separator_1"/>
+  <Action name="file_new"/>
+  <Action name="file_open"/>
+  <Action name="file_open_recent"/>
+  <Separator name="separator_2"/>
+  <Action name="file_save_all"/>
+  <DefineGroup name="file_operations" append="file_operations"/>
+  <DefineGroup name="edit_operations" append="edit_operations"/>
+  <Action name="commit_current_project"/>
+  <Action name="switch_runtimes"/>
+ </ToolBar>
+ <Menu name="rb_popup" noMerge="1">
+  <Separator/>
+  <Action name="file_close"/>
+  <Action name="file_closeother"/>
+ </Menu>
+ <ActionProperties scheme="Default">
+  <Action name="switch_runtimes" priority="0"/>
+  <Action name="run_execute" priority="0"/>
+  <Action name="run_debug" priority="0"/>
+  <Action name="run_stop_all" priority="0"/>
+  <Action name="run_stop_menu" priority="0"/>
+  <Action name="file_new" priority="0"/>
+  <Action name="file_open" priority="0"/>
+  <Action name="file_open_recent" priority="0"/>
+  <Action name="commit_current_project" priority="0"/>
+  <Action name="file_save_all" priority="0"/>
+ </ActionProperties>
+</gui>
