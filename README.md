@@ -14,17 +14,17 @@
 
 ## Subject
 
-* [Mx Linux Adjustment](#mx-linux-adjustment)
+* [Mx Linux Respin](#mx-linux-respin)
 * [Script](#script)
 * [Link](#link)
 
 
 
 
-## Mx Linux Adjustment
+## Mx Linux Respin
 
-| Mx Linux Adjustment |
-| ------------------- |
+| Mx Linux Respin |
+| --------------- |
 | [Mx Linux Xfce Adjustment](https://github.com/samwhelp/mxlinux-xfce-adjustment) |
 | [Mx Linux Kde Plasma Adjustment](https://github.com/samwhelp/mxlinux-kde-plasma-adjustment) |
 | [Mx Linux Fluxbox Adjustment](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
