@@ -1,0 +1,36 @@
+
+
+##
+## # Grub-Theme
+##
+
+
+
+
+##
+## ## Package / Grub
+##
+
+#grub2
+
+grub-common
+#grub-pc
+
+
+
+
+##
+## ## Package / Grub-Theme
+##
+
+
+#lubuntu-grub-theme
+
+
+#grub-theme-starfield
+#grub-theme-breeze
+
+
+#grub2-themes-edubuntu
+#grub2-themes-ubuntu-mate
+#grub2-themes-ubuntustudio
