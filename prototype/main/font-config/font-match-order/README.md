@@ -12,7 +12,7 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/fontconfig/conf.d/50-font-match-order.conf](./asset/overlay/etc/skel/.config/fontconfig/conf.d/50-font-match-order.conf) |
 
 
