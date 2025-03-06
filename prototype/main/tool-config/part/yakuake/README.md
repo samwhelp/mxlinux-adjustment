@@ -15,14 +15,16 @@
 ### Normal
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/yakuakerc](./asset/overlay/etc/skel/.config/yakuakerc) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [yakuake](https://packages.debian.org/stable/yakuake) |
 
 

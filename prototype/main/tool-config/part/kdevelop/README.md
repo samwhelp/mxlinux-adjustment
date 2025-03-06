@@ -15,14 +15,14 @@
 ### Normal
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/kdeveloprc](./asset/overlay/etc/skel/.config/kdeveloprc) |
 
 
 ### Tool Bar
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.local/share/kxmlgui5/kdevelop/kdevelopui.rc](./asset/overlay/etc/skel/.local/share/kxmlgui5/kdevelop/kdevelopui.rc) |
 | [~/.local/share/kxmlgui5/katepart/katepart5ui.rc](./asset/overlay/etc/skel/.local/share/kxmlgui5/katepart/katepart5ui.rc) |
 | [~/.local/share/kxmlgui5/kdevprojectmanagerview/kdevprojectmanagerview.rc](./asset/overlay/etc/skel/.local/share/kxmlgui5/kdevprojectmanagerview/kdevprojectmanagerview.rc) |
@@ -33,7 +33,7 @@
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [kdevelop](https://packages.debian.org/stable/kdevelop) |
 
 

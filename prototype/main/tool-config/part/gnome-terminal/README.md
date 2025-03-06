@@ -12,7 +12,7 @@
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [gnome-terminal](https://packages.debian.org/stable/gnome-terminal) |
 
 

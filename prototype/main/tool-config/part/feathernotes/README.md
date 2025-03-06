@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/feathernotes/fn.conf](./asset/overlay/etc/skel/.config/feathernotes/fn.conf) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [feathernotes](https://packages.debian.org/stable/feathernotes) |
 
 

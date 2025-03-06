@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/geany/geany.conf](./asset/overlay/etc/skel/.config/geany/geany.conf) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [geany](https://packages.debian.org/stable/geany) |
 
 

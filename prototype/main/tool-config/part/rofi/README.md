@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/rofi/config.rasi](./asset/overlay/etc/skel/.config/rofi/config.rasi) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [rofi](https://packages.debian.org/stable/rofi) |
 
 

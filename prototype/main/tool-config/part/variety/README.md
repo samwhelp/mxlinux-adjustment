@@ -12,7 +12,7 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/autostart/variety.desktop](./asset/overlay/etc/skel/.config/autostart/
 | [~/.config/variety/variety.conf](./asset/overlay/etc/skel/.config/variety/variety.conf) |
 | [~/.config/variety/history.txt](./asset/overlay/etc/skel/.config/variety/history.txt) |
@@ -25,7 +25,7 @@ variety.desktop) |
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [variety](https://packages.debian.org/stable/variety) |
 
 

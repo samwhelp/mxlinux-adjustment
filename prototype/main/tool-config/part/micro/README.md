@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/micro/settings.json](./asset/overlay/etc/skel/.config/micro/settings.json) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [micro](https://packages.debian.org/stable/micro) |
 
 

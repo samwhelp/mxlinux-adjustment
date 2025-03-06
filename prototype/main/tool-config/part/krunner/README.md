@@ -15,14 +15,16 @@
 ### Normal
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/krunnerrc](./asset/overlay/etc/skel/.config/krunnerrc) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [krunner](https://packages.debian.org/stable/krunner) |
 
 

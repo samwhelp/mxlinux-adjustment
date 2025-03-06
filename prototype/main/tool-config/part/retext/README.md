@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/retext/retext.conf](./asset/overlay/etc/skel/.config/retext/retext.conf) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [retext](https://packages.debian.org/stable/retext) |
 
 

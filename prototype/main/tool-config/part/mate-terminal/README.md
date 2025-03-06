@@ -12,8 +12,10 @@
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [mate-terminal](https://packages.debian.org/stable/mate-terminal) |
+
+
 
 
 ## Usage

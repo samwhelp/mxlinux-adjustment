@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.vim/vimrc](./asset/overlay/etc/skel/.vim/vimrc) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [vim](https://packages.debian.org/stable/vim) |
 
 

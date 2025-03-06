@@ -12,18 +12,20 @@
 ## Config File Path
 
 | Config File Path (default) |
-| --- |
+| -------------------------- |
 | [~/.config/pcmanfm-qt/default/settings.conf](./asset/overlay/etc/skel/.config/pcmanfm-qt/default/settings.conf) |
 
 | Config File Path (lxqt) |
-| --- |
+| ----------------------- |
 | [~/.config/pcmanfm-qt/lxqt/settings.conf](./asset/overlay/etc/skel/.config/pcmanfm-qt/lxqt/settings.conf) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [pcmanfm-qt](https://packages.debian.org/stable/pcmanfm-qt) |
 
 

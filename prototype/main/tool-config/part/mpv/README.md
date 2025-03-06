@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/mpv/mpv.conf](./asset/overlay/etc/skel/.config/mpv/mpv.conf) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [mpv](https://packages.debian.org/stable/mpv) |
 
 

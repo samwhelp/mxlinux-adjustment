@@ -12,7 +12,7 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [/usr/share/glib-2.0/schemas/50_mousepad.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_mousepad.gschema.override) |
 
 
@@ -21,7 +21,7 @@
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [mousepad](https://packages.debian.org/stable/mousepad) |
 
 

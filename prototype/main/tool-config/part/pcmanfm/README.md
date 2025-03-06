@@ -12,15 +12,17 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/pcmanfm/default/pcmanfm.conf](./asset/overlay/etc/skel/.config/pcmanfm/default/pcmanfm.conf) |
 | [~/.config/libfm/libfm.conf](./asset/overlay/etc/skel/.config/libfm/libfm.conf) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [pcmanfm](https://packages.debian.org/stable/pcmanfm) |
 
 

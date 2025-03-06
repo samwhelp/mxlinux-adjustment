@@ -12,14 +12,16 @@
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/lxterminal/lxterminal.conf](./asset/overlay/etc/skel/.config/lxterminal/lxterminal.conf) |
+
+
 
 
 ## Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [lxterminal](https://packages.debian.org/stable/lxterminal) |
 
 
