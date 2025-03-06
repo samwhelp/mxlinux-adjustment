@@ -12,3 +12,13 @@
 ##
 
 bash
+bash-completion
+
+
+
+
+##
+## ## Package / fzf
+##
+
+fzf

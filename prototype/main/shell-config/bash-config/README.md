@@ -1,27 +1,41 @@
 
+
 # Bash
+
+* [Config File Path](#config-file-path)
+* [Debian Package](#debian-package)
+* [Usage](#usage)
+
+
 
 
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.bashrc](./asset/overlay/etc/skel/.bashrc) |
 
 
-## Ubuntu Package
 
-| Ubuntu Package |
-| --- |
-| [bash](https://packages.ubuntu.com/noble/bash) |
+
+## Debian Package
+
+| Debian Package |
+| -------------- |
+| [bash](https://packages.debian.org/stable/bash) |
+| [bash-completion](https://packages.debian.org/stable/bash-completion) |
+| [fzf](https://packages.debian.org/stable/fzf) |
+
 
 
 
 ## Link
 
 | Link |
-| --- |
+| ---- |
 | bashrc-enhance-prototype / [start](https://github.com/samwhelp/bashrc-enhance-prototype/tree/main/prototype/start/debian) |
+
+
 
 
 ## Usage
