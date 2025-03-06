@@ -1,5 +1,12 @@
 
+
 # Font
+
+* [Config File Path](#config-file-path)
+* [Debian Package](#debian-package)
+* [Usage](#usage)
+
+
 
 
 ## Config File Path
@@ -9,14 +16,17 @@
 | [~/.config/fontconfig/conf.d/50-font-match-order.conf](./asset/overlay/etc/skel/.config/fontconfig/conf.d/50-font-match-order.conf) |
 
 
-## Ubuntu Package
 
-| Ubuntu Package |
-| --- |
-| [fonts-dejavu](https://packages.ubuntu.com/noble/fonts-dejavu) |
-| [fonts-noto-cjk](https://packages.ubuntu.com/noble/fonts-noto-cjk) |
-| [fonts-liberation2](https://packages.ubuntu.com/noble/fonts-liberation2) |
-| [fonts-jetbrains-mono](https://packages.ubuntu.com/noble/fonts-jetbrains-mono) |
+
+## Debian Package
+
+| Debian Package |
+| -------------- |
+| [fonts-dejavu](https://packages.debian.org/stable/fonts-dejavu) |
+| [fonts-noto-cjk](https://packages.debian.org/stable/fonts-noto-cjk) |
+| [fonts-liberation2](https://packages.debian.org/stable/fonts-liberation2) |
+| [fonts-jetbrains-mono](https://packages.debian.org/stable/fonts-jetbrains-mono) |
+
 
 
 
