@@ -10,7 +10,7 @@
 ##
 ## ## install python-pygithub
 ##
-## > for archlinux
+## > for archlinux or manjaro
 ##
 ## ``` sh
 ## sudo pacman -S --needed python-pygithub
@@ -22,7 +22,7 @@
 ## sudo dnf install python3-github
 ## ```
 ##
-## > for ubuntu
+## > for debian or ubuntu
 ##
 ## ``` sh
 ## sudo apt-get install python3-github
