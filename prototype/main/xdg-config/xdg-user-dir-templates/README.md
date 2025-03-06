@@ -1,11 +1,18 @@
 
+
 # Xdg
+
+* [Config File Path](#config-file-path)
+* [Debian Package](#debian-package)
+* [Usage](#usage)
+
+
 
 
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/Templates](./asset/overlay/etc/skel/Templates) |
 | [~/.config/Templates/bash.sh](./asset/overlay/etc/skel/Templates/bash.sh) |
 | [~/.config/Templates/dl.sh](./asset/overlay/etc/skel/Templates/dl.sh) |
@@ -16,12 +23,13 @@
 
 
 
-## Ubuntu Package
+## Debian Package
 
-| Ubuntu Package |
-| --- |
-| [xdg-utils](https://packages.ubuntu.com/noble/xdg-utils) |
-| [xdg-user-dirs](https://packages.ubuntu.com/noble/xdg-user-dirs) |
+| Debian Package |
+| -------------- |
+| [xdg-utils](https://packages.debian.org/stable/xdg-utils) |
+| [xdg-user-dirs](https://packages.debian.org/stable/xdg-user-dirs) |
+| [python3-github](https://packages.debian.org/stable/python3-github) |
 
 
 

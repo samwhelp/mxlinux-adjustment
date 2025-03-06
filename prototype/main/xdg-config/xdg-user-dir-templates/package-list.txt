@@ -13,3 +13,12 @@
 
 xdg-utils
 xdg-user-dirs
+
+
+
+
+##
+## ## Package / pygithub
+##
+
+python3-github

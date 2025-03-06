@@ -1,22 +1,30 @@
 
+
 # Xdg
+
+* [Config File Path](#config-file-path)
+* [Debian Package](#debian-package)
+* [Usage](#usage)
+
+
 
 
 ## Config File Path
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/mimeapps.list](./asset/overlay/etc/skel/.config/mimeapps.list) |
 
 
 
 
-## Ubuntu Package
+## Debian Package
 
-| Ubuntu Package |
-| --- |
-| [xdg-utils](https://packages.ubuntu.com/noble/xdg-utils) |
-| [xdg-user-dirs](https://packages.ubuntu.com/noble/xdg-user-dirs) |
+| Debian Package |
+| -------------- |
+| [xdg-utils](https://packages.debian.org/stable/xdg-utils) |
+| [xdg-user-dirs](https://packages.debian.org/stable/xdg-user-dirs) |
+
 
 
 
