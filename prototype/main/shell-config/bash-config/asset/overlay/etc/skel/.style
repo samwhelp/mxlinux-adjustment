@@ -46,11 +46,6 @@
 if [ "$XDG_CURRENT_DESKTOP" != "KDE" ]; then
 
 
-	##
-	## qt-style-follow-kvantum
-	##
-
-	#export QT_QPA_PLATFORMTHEME=kvantum
 
 
 	##
@@ -60,14 +55,51 @@ if [ "$XDG_CURRENT_DESKTOP" != "KDE" ]; then
 	#export QT_QPA_PLATFORMTHEME=qt5ct
 
 
+
+
+	##
+	## qt-style-follow-qt6ct
+	##
+
+	export QT_QPA_PLATFORMTHEME=qt6ct
+
+
+
+
 	##
 	## qt-style-follow-gtk
 	##
 
-	export QT_QPA_PLATFORMTHEME=gtk2
+	#export QT_QPA_PLATFORMTHEME=gtk2
+
+
+
+
+	##
+	## qt-style-follow-kvantum
+	##
+
+	#export QT_QPA_PLATFORMTHEME=kvantum
+	#export QT_STYLE_OVERRIDE=kvantum
+
+
 
 
 fi
+
+
+
+
+##
+## ## Packages
+##
+## * qt6ct
+## * qt6-style-kvantum
+##
+## ``` sh
+## sudo apt-get install qt6ct qt6-style-kvantum
+## ```
+##
 
 
 
@@ -79,6 +111,8 @@ fi
 ## $ dpkg -S /usr/lib/x86_64-linux-gnu/qt5/plugins/styles/libqgtk2style.so
 ## qt5-gtk2-platformtheme:amd64: /usr/lib/x86_64-linux-gnu/qt5/plugins/styles/libqgtk2style.so
 ##
+
+
 
 
 ##
