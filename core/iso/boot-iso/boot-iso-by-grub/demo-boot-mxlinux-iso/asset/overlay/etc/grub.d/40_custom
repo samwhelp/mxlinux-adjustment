@@ -8,7 +8,7 @@ exec tail -n +3 $0
 
 
 menuentry "MX Linux ISO / Xfce" --class Debian {
-	set iso_file="/opt/iso/mxlinux/latest/MX-25_x64.iso"
+	set iso_file="/opt/iso/mxlinux/latest/MX-25_Xfce_x64.iso"
 	search --set=iso_partition --no-floppy --file ${iso_file}
 	probe --set=iso_partition_uuid --fs-uuid ${iso_partition}
 	set img_dev="/dev/disk/by-uuid/${iso_partition_uuid}"
