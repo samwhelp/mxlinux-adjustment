@@ -5,6 +5,14 @@
 
 
 
+## Live System
+
+* User: demo
+* Pass: demo
+
+
+
+
 ## Link
 
 * MX Linux / [News](https://mxlinux.org/mx-linux-blog/) / [MX 25 “Infinity” isos now available!](https://mxlinux.org/blog/mx-25-infinity-isos-now-available/)
