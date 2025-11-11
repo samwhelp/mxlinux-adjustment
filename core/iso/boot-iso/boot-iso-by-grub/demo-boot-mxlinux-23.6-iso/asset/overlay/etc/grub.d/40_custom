@@ -7,7 +7,7 @@ exec tail -n +3 $0
 
 
 
-menuentry "MX Linux ISO / Xfce" --class mx-linux {
+menuentry "MxLinux ISO / Xfce" --class mx-linux {
 	set iso_file="/opt/iso/mxlinux/latest/MX-23.6_x64.iso"
 	search --set=iso_partition --no-floppy --file ${iso_file}
 	probe --set=iso_partition_uuid --fs-uuid ${iso_partition}
@@ -38,7 +38,7 @@ menuentry "MX Linux ISO / Xfce" --class mx-linux {
 
 
 
-menuentry "MX Linux ISO / Kde Plasma" --class mx-linux {
+menuentry "MxLinux ISO / Kde Plasma" --class mx-linux {
 	set iso_file="/opt/iso/mxlinux/latest/MX-23.6_KDE_x64.iso"
 	search --set=iso_partition --no-floppy --file ${iso_file}
 	probe --set=iso_partition_uuid --fs-uuid ${iso_partition}
@@ -69,7 +69,7 @@ menuentry "MX Linux ISO / Kde Plasma" --class mx-linux {
 
 
 
-menuentry "MX Linux ISO / Fluxbox" --class mx-linux {
+menuentry "MxLinux ISO / Fluxbox" --class mx-linux {
 	set iso_file="/opt/iso/mxlinux/latest/MX-23.6_fluxbox_x64.iso"
 	search --set=iso_partition --no-floppy --file ${iso_file}
 	probe --set=iso_partition_uuid --fs-uuid ${iso_partition}
