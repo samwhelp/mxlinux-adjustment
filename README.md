@@ -2,6 +2,9 @@
 
 # mxlinux-adjustment
 
+
+
+
 ## Home
 
 | Link | GitHub |
@@ -35,7 +38,8 @@
 ## Script
 
 | Script |
-| ------- |
+| ------ |
+| [Mx Linux Config](https://github.com/samwhelp/mxlinux-adjustment/tree/main/prototype/main) |
 | [Tool Config](https://github.com/samwhelp/mxlinux-adjustment/tree/main/prototype/main/tool-config/part) |
 
 
@@ -48,3 +52,10 @@
 | [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
 | [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
 | [Linux Mint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
+
+
+
+
+## Samwhelp
+
+* [GitHub](https://github.com/samwhelp)
