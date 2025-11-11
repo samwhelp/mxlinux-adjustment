@@ -10,11 +10,11 @@ has_children: false
 
 
 
-## Mx Linux
+## MxLinux
 
-| Mx Linux |
+| MxLinux |
 | -------- |
-| [Mx Linux](https://mxlinux.org/) |
+| [MxLinux](https://mxlinux.org/) |
 | GitHub / [mx-linux](https://github.com/mx-linux) |
 
 
