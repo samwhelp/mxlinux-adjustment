@@ -21,11 +21,11 @@
 
 ## MxLinux Respin
 
-| MxLinux Respin |
-| --------------- |
-| [MxLinux Xfce Adjustment](https://github.com/samwhelp/mxlinux-xfce-adjustment) |
-| [MxLinux Kde Plasma Adjustment](https://github.com/samwhelp/mxlinux-kde-plasma-adjustment) |
-| [MxLinux Fluxbox Adjustment](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
+| Link | GitHub |
+| ---- | ------ |
+| [MxLinux Xfce Adjustment](https://samwhelp.github.io/mxlinux-xfce-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-xfce-adjustment) |
+| [MxLinux Kde Plasma Adjustment](https://samwhelp.github.io/mxlinux-kde-plasma-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-kde-plasma-adjustment) |
+| [MxLinux Fluxbox Adjustment](https://samwhelp.github.io/mxlinux-fluxbox-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-fluxbox-adjustment) |
 
 
 
